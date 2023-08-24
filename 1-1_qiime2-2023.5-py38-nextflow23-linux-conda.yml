@@ -2,6 +2,7 @@ channels:
   - qiime2/label/r2023.5
   - conda-forge
   - bioconda
+  - pypi
   - defaults
 dependencies:
   - _libgcc_mutex=0.1
@@ -699,3 +700,5 @@ dependencies:
   - zstandard=0.19.0
   - zstd=1.5.2
   - nextflow=23.04.1
+  - krona=2.8.1
+  - pip: - q2-krona==1.0.2
