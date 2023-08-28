@@ -701,5 +701,4 @@ dependencies:
   - zstd=1.5.2
   - nextflow=23.04.1
   - krona=2.8.1
-  - pip: 
-      - q2-krona==1.0.2
+  - picrust2=2.5.0
